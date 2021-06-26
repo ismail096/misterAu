@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="logo_splash">240dp</dimen>
+    <dimen name="logo_height">52dp</dimen>
+    <dimen name="texte_empty_size">20sp</dimen>
+    <dimen name="text_size">17sp</dimen>
+    <bool name="is_tablet">true</bool>
+
+
+</resources>

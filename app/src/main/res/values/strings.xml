@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MisterAuto</string>
+    <string name="empty_list_text">Aucun élément disponible</string>
+    <string name="error_load_data">Impossible de charger les données pour le moment</string>
+    <string name="check_internet">Vérifiez que vous êtes bien connecté à internet</string>
+    <string name="nom">Nom :</string>
+    <string name="UserName">Nom d’utilisateur :</string>
+    <string name="email">Email :</string>
+    <string name="progres">L’état d’​avancement :</string>
+    <string name="titre">Titre :</string>
+
+
+
+
+</resources>

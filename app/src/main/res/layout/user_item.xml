@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/user_data"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="@color/white"
+    >
+
+    <LinearLayout
+        android:id="@+id/user_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="@dimen/marginstart_item"
+        android:layout_marginEnd="@dimen/marginstart_item"
+        android:layout_marginBottom="@dimen/marginbottom"
+        android:padding="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:layout_marginStart="@dimen/marginstart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/user_name"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/margintop"
+                android:layout_marginStart="@dimen/marginstart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nom"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size"
+              />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_marginTop="@dimen/margintop"
+                android:layout_marginStart="@dimen/marginstart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:layout_marginStart="@dimen/marginstart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/user_username"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/margintop"
+                android:layout_marginStart="@dimen/marginstart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/UserName"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size"
+                />
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_marginTop="@dimen/margintop"
+                android:layout_marginStart="@dimen/marginstart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:layout_marginStart="@dimen/marginstart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/email_user"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/margintop"
+                android:layout_marginStart="@dimen/marginstart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/email"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size"
+                />
+
+            <TextView
+                android:id="@+id/mail"
+                android:layout_marginTop="@dimen/margintop"
+                android:layout_marginStart="@dimen/marginstart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size"
+                />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
